@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+.login-box{
+	width: 400px;
+	margin: 50px auto;
+	background: #eee;
+	padding: 40px;
+	border: 4px solid #000;
+	border-radius: 10px;
+}
+.login{
+	width: 100%;
+}
+.login .avater{
+	width: 100%;
+	text-align: center;
+}
+.login .avater img{
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	border: 1px solid #000;
+	margin: 0px 0px 20px;
+}
+.login h1{
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #000;
+}
+.login .form-group{
+	width: 100%;
+	margin: 15px 0px;
+}
+.login .form-group label{
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+}
+.login .form-group .form-control{
+	width: 96%;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background: transparent;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+}
+.login .form-group .btn-primary{
+	padding: 15px 35px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 1px solid #000;
+	background: #000;
+	color: #fff;
+	transition: 1s;
+}
+.login .form-group .btn-primary:hover{
+	border: 1px solid #000;
+	background: transparent;
+	color: #000;
+	cursor: pointer;
+
+}
+.login .form-group a{
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+.login .form-group a:hover{
+	color: blue;
+}
